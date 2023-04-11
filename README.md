@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-# [Dayu]
-
-Dayu is a file processing service
-
-## Install MySQL
-cd ./mysql
-bash mysqlInstall.sh
-
-## Install Python Packages
-pip install -r requirements.txt
-
-## Modify Config
-modify ./settings.py
-
-## Start Service
-python main.py
-=======
 # Dayu - 大禹
 
 Dayu is a file processing service
@@ -35,7 +17,6 @@ Dayu is a file processing service
     
     ## Start Service
     python main.py
->>>>>>> 4d388a1 (first commit)
 
 ## Other
 python version > 3.x
