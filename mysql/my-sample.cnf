@@ -1,0 +1,27 @@
+[client]
+default-character-set=utf8mb4
+bind-address=0.0.0.0
+port=3306
+
+[mysql]
+default-character-set=utf8mb4
+
+[mysqld]
+server-id=10
+log_bin=mysql-bin
+binlog_format=ROW
+binlog_row_image=full
+expire_logs_days=3
+user=mysql
+basedir=/usr/local/mysql
+datadir=/data/mysql
+socket=/data/mysql/mysql.sock
+lower_case_table_names=1
+character-set-server=utf8mb4
+collation-server=utf8mb4_unicode_ci
+init_connect='SET NAMES utf8mb4'
+log-error=/data/mysql/mysql.err
+innodb_buffer_pool_size=1G
+
+[mysqld_safe]
+pid-file=/data/mysql/mysql.pid
