@@ -1,0 +1,2 @@
+cd data_canal/mysql
+bash mysqlInstall.sh
